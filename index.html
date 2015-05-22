@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="libs/jquery/jquery.js"></script>
+  <script src="dist/jquery.highlight.min.js"></script>
+  <link rel="stylesheet" href="dist/highlight.min.css" />
+  <style>
+    body{ margin:0 auto; width:600px;}
+  </style>
+</head>
+<body>
+    <h1>My header</h1>
+    <ul id="my-list">
+      <li class="item">item</li>
+      <li class="item">item</li>
+      <li class="item">item</li>
+      <li class="item">item</li>
+      <li class="item">item</li>
+    </ul>
+    <button id="show-buttons">Show buttons</button>
+    <button id="hide-buttons">Hide buttons</button>
+    <script>
+      $('h1').highlight({disableHover: true, highlightColor: '#f00'});
+      $('h1').highlight('setColor', '#00f');
+      $('#my-list li').highlight();
+      $('#show-buttons').on('click', function(){
+        $('h1').highlight('showButtons');
+      });
+      $('#hide-buttons').on('click', function(){
+        $('h1').highlight('hideButtons');
+      });
+      
+    </script>
+</body>
+</html>

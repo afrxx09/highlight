@@ -1,0 +1,33 @@
+.highlight{
+  position:relative;
+}
+
+.highlight .show{
+  display:block;
+}
+
+.highlight .hide{
+  display:none;
+}
+
+.highlight.glow{
+  background-color:#ffa;
+}
+
+.highlight .highlight-buttons{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.highlight .on,
+.highlight .off{
+  float:right;
+  display:inline-block;
+  font-size:12px;
+  padding:2px;
+  margin:0;
+  background-color:#ccc;
+  border:1px solid #000;
+  cursor:pointer;
+}

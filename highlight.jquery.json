@@ -1,0 +1,26 @@
+{
+  "name": "highlight",
+  "title": "Highlight",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Andreas/highlight",
+  "author": {
+    "name": "Andreas Fridlund",
+    "email": "afrxx09@student.lnu.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Andreas/highlight.git"
+  },
+  "bugs": "https://github.com/Andreas/highlight/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Andreas/highlight/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.11"
+  },
+  "keywords": []
+}
