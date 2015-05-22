@@ -1,0 +1,2 @@
+# highlight
+Simple jQuery plugin
